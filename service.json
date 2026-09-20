@@ -1,0 +1,17 @@
+{
+  "name": "consumer-java-3",
+  "language": "java",
+  "role": "consumer",
+  "calls": [
+    {
+      "provider": "loans-api",
+      "method": "GET",
+      "endpoint": "/v1/loans/{id}"
+    },
+    {
+      "provider": "loans-api",
+      "method": "GET",
+      "endpoint": "/v1/customers/{id}"
+    }
+  ]
+}
